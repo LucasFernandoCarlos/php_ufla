@@ -2,7 +2,7 @@
 # https://github.com/Chialab/docker-php/blob/master/7.4/fpm/Dockerfile
 # a unica diferenca por enquanto e que este dockerfile instala a extensao apcu que o chialab nao instala
 
-FROM php:fpm
+FROM php:7.2-fpm
 LABEL maintainer="lucas.fernando@ufla.br"
 
 # Download script to install PHP extensions and dependencies
